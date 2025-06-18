@@ -1,0 +1,173 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+body {
+  font-family: 'Inter', sans-serif;
+  @apply bg-white text-secondary-900;
+}
+
+.gradient-bg {
+  @apply bg-white;
+}
+
+.auth-input {
+  @apply w-full px-4 py-2.5 bg-white border border-secondary-200 rounded-lg text-secondary-900 
+         placeholder-secondary-400 focus:outline-none focus:ring-2 focus:ring-primary-400 focus:border-transparent
+         transition-all duration-300 ease-in-out
+         shadow-soft hover:shadow-soft-hover;
+}
+
+.btn-primary {
+  @apply bg-primary-500 text-white px-6 py-2.5 rounded-lg font-medium
+         hover:bg-primary-600 active:bg-primary-700
+         transform hover:scale-[1.02] active:scale-[0.98]
+         transition-all duration-300 ease-in-out
+         shadow-soft hover:shadow-soft-hover
+         animate-fade-in;
+}
+
+.btn-secondary {
+  @apply bg-white text-secondary-900 px-6 py-2.5 rounded-lg font-medium
+         border border-secondary-200
+         hover:bg-secondary-50 active:bg-secondary-100
+         transform hover:scale-[1.02] active:scale-[0.98]
+         transition-all duration-300 ease-in-out
+         shadow-soft hover:shadow-soft-hover
+         animate-fade-in;
+}
+
+.btn-outline {
+  @apply bg-transparent text-primary-600 px-6 py-2.5 rounded-lg font-medium
+         border-2 border-primary-500
+         hover:bg-primary-50 active:bg-primary-100
+         transform hover:scale-[1.02] active:scale-[0.98]
+         transition-all duration-300 ease-in-out
+         animate-fade-in;
+}
+
+.card {
+  @apply bg-white rounded-xl shadow-soft hover:shadow-soft-hover
+         transition-all duration-300 ease-in-out
+         animate-fade-in
+         hover:transform hover:scale-[1.01];
+}
+
+.drawing-canvas {
+  @apply border-2 border-secondary-200 rounded-lg touch-none w-full h-full
+         bg-white shadow-soft hover:shadow-soft-hover
+         transition-all duration-300 ease-in-out;
+  aspect-ratio: 5/3;
+  touch-action: none;
+}
+
+.nav-link {
+  @apply text-secondary-700 hover:text-primary-600
+         transition-all duration-300 ease-in-out
+         animate-fade-in;
+}
+
+.nav-link-active {
+  @apply text-primary-600 font-medium
+         relative after:absolute after:bottom-0 after:left-0 after:w-full after:h-0.5
+         after:bg-primary-500 after:rounded-full
+         after:transform after:scale-x-100 after:transition-transform after:duration-300;
+}
+
+/* Header styles */
+.header {
+  @apply bg-white border-b border-secondary-200 shadow-soft;
+}
+
+/* Footer styles */
+.footer {
+  @apply bg-white border-t border-secondary-200;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-secondary-100;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-secondary-300 rounded-full hover:bg-secondary-400
+         transition-all duration-300 ease-in-out;
+}
+
+/* Enhanced animations */
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fade-in 0.5s ease-out;
+}
+
+/* Interactive elements hover effects */
+.interactive-element {
+  @apply transition-all duration-300 ease-in-out
+         hover:transform hover:scale-[1.02]
+         hover:shadow-soft-hover;
+}
+
+/* Loading animation */
+.loading-spinner {
+  @apply w-6 h-6 border-4 border-secondary-200 border-t-primary-500
+         rounded-full animate-spin;
+}
+
+/* Success animation */
+.success-check {
+  @apply text-primary-500;
+}
+
+/* Error animation */
+.error-shake {
+  animation: shake 0.5s ease-in-out;
+}
+
+@keyframes shake {
+  0%, 100% { transform: translateX(0); }
+  25% { transform: translateX(-5px); }
+  75% { transform: translateX(5px); }
+}
+
+/* Text styles */
+.heading-1 {
+  @apply text-4xl font-bold text-secondary-900;
+}
+
+.heading-2 {
+  @apply text-3xl font-semibold text-secondary-900;
+}
+
+.heading-3 {
+  @apply text-2xl font-medium text-secondary-900;
+}
+
+.body-text {
+  @apply text-base text-secondary-800;
+}
+
+.caption {
+  @apply text-sm text-secondary-600;
+}
+
+/* Link styles */
+.link {
+  @apply text-primary-600 hover:text-primary-700
+         transition-colors duration-300 ease-in-out
+         underline-offset-4 hover:underline;
+}
