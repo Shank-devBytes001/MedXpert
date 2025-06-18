@@ -1,6 +1,6 @@
 # MedXpert
-Paper less OPD/IPD for medical, easy access of medical records for future purposes.
 
+A paperless OPD/IPD solution for easy access of medical records.
 
 # $${\color{skyblue}MedXpert}$$ - Digitizing the healthcare
 
