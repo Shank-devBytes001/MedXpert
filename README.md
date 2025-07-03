@@ -1,6 +1,6 @@
-<h1 align="center">MedXpert
+<h1 align="center">🧑‍⚕️MedXpert
 </h1>
-<h3>Digitializing the health industry by reducing time for IPD/OPD using AI and integration with Dwani API for regional language interaction with portal</h3>
+<h3 align="center">Digitializing the health industry by reducing time for IPD/OPD using AI and integration with Dwani API for regional language interaction with portal</h3>
 
 <p align="center">
   <img src="https://img.shields.io/github/stars/Shank-devBytes001/MedXpert?style=for-the-badge" />
