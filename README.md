@@ -19,7 +19,7 @@
 Here are some screenshots that showcase the functionality and interface of **MediReport Pro**:
 
 <p align="center">
-  <img src="assets/1_homepage.png" width="90%" alt="Homepage - Role Selection UI"/>
+  <img src="1.png" width="90%" alt="Homepage - Role Selection UI"/>
   <br>
   <b>🧭 Homepage & Role Selection</b>  
   <br>
@@ -27,7 +27,7 @@ Here are some screenshots that showcase the functionality and interface of **Med
 </p>
 
 <p align="center">
-  <img src="assets/2_doctor_dashboard.png" width="90%" alt="Doctor Dashboard"/>
+  <img src="3.png" width="90%" alt="Doctor Dashboard"/>
   <br>
   <b>🩺 Doctor Workspace</b>  
   <br>
@@ -35,7 +35,7 @@ Here are some screenshots that showcase the functionality and interface of **Med
 </p>
 
 <p align="center">
-  <img src="assets/3_patient_dashboard.png" width="90%" alt="Patient Dashboard"/>
+  <img src="2.png" width="90%" alt="Patient Dashboard"/>
   <br>
   <b>👨‍⚕️ Patient Dashboard</b>  
   <br>
