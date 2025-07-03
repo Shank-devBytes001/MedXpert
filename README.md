@@ -1,6 +1,6 @@
-<h1 align="center">
-  <img src="assets/banner.png" alt="MedXpert Banner" width="100%"/>
+<h1 align="center">MedXpert
 </h1>
+<h3>Digitializing the health industry by reducing time for IPD/OPD using AI and integration with Dwani API for regional language interaction with portal</h3>
 
 <p align="center">
   <img src="https://img.shields.io/github/stars/Shank-devBytes001/MedXpert?style=for-the-badge" />
@@ -9,28 +9,38 @@
   <img src="https://img.shields.io/github/forks/Shank-devBytes001/MedXpert?style=for-the-badge" />
 </p>
 
-<h2 align="center">
-  🧠 MedXpert — AI-powered Healthcare Assistant
-</h2>
-
-<p align="center"><i>Your intelligent assistant for faster, smarter medical diagnosis using machine learning and patient data insights.</i></p>
+<h2 align="center">🧠 MedXpert — AI-powered Healthcare Assistant</h2>
+<p align="center"><i>Your intelligent companion for smarter, faster medical diagnostics using Machine Learning.</i></p>
 
 ---
 
-## 📸 Preview
+## 📸 UI Preview
 
-<img src="assets/ui-preview.png" alt="App UI Preview" width="90%" />
+> *(Replace this with a screenshot from your actual UI)*  
+<img src="https://img.freepik.com/premium-ai-image/3d-doctor-icon-medical-healthcare-illustration-logo_276205372.png" width="300" alt="3D doctor" />
 
 ---
 
 ## 🚀 Features
 
-- 🧬 Machine Learning–based fetal health prediction
-- 📂 Upload or manually enter medical values
-- ⚙️ Real-time intelligent classification
-- 📊 Report generation: Normal, Suspect, Pathological
-- 🎨 Clean, responsive UI with animations
-- 🔐 Secure and modular Flask backend
+- 🧬 Predict fetal health using real patient data
+- 📊 Classify as: Normal, Suspect, or Pathological
+- 📂 Clean UI for medical input & form handling
+- 📤 Auto-generated output with instant result
+- ⚙️ Flask backend powered by a trained ML model
+- 🔐 Fully local and secure — no cloud needed
+
+---
+
+## 💻 Tech Stack
+
+| Component   | Technologies Used                                  |
+|------------|-----------------------------------------------------|
+| 🧠 AI/ML     | ![Python](https://img.shields.io/badge/Python-3670A0?style=flat&logo=python&logoColor=white) ![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=flat&logo=scikitlearn&logoColor=white) |
+| ⚙️ Backend  | ![Flask](https://img.shields.io/badge/Flask-000000?style=flat&logo=flask&logoColor=white) ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white) |
+| 💻 Frontend | ![HTML](https://img.shields.io/badge/HTML-E34F26?style=flat&logo=html5&logoColor=white) ![CSS](https://img.shields.io/badge/CSS-1572B6?style=flat&logo=css3&logoColor=white) ![JS](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black) |
+| 📦 Storage  | Local JSON or CSV (optional DB support)            |
+| 🎨 UI Icons | Feather Icons, Freepik 3D Assets                   |
 
 ---
 
@@ -38,19 +48,17 @@
 
 ```bash
 MedXpert/
+├── backend/              # Flask app with trained ML model
+│   ├── app.py
+│   ├── model.pkl
+│   └── requirements.txt
 │
-├── backend/              # Flask backend for predictions
-│   ├── app.py            # Flask entry point
-│   ├── model/            # Trained model & ML utils
-│   └── requirements.txt  # Python dependencies
+├── frontend/             # Static frontend
+│   ├── index.html
+│   ├── style.css
+│   └── script.js
 │
-├── frontend/             # HTML, CSS, JS UI
-│   ├── index.html        # UI entry point
-│   ├── script.js         # JS logic
-│   └── style.css         # Custom styles
+├── assets/               # Images, icons, etc.
+│   └── banner.png
 │
-├── assets/               # UI banners, screenshots, icons
-│   ├── banner.png
-│   └── ui-preview.png
-│
-└── README.md             # This file
+└── README.md             # Project documentation
