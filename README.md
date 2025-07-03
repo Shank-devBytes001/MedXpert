@@ -83,3 +83,30 @@ MedXpert/
 │   └── banner.png
 │
 └── README.md             # Project documentation
+```
+---
+
+## 🛠️ 1️⃣ Backend Setup
+
+```bash
+cd backend
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+pip install -r requirements.txt
+python app.py
+```
+## API Endpoints (Flask)
+
+- Endpoint	Method	Description
+- /predict	POST	Accepts input JSON, returns health class
+- /health-check	GET	Returns simple "running" response
+---
+## Contributing
+- We welcome your contributions! Follow these steps to get started:
+## Steps
+- 1. Fork the repo
+- 2. Create your branch: git checkout -b feature/your-feature
+- 3. Commit changes: git commit -m 'Add new feature'
+- 4. Push to branch: git push origin feature/your-feature
+- 5. Submit a pull request 🚀
+---
