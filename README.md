@@ -17,7 +17,9 @@
 ## 📸 UI Preview
 
 > *(Replace this with a screenshot from your actual UI)*  
-<img src="https://img.freepik.com/premium-ai-image/3d-doctor-icon-medical-healthcare-illustration-logo_276205372.png" width="300" alt="3D doctor" />
+<img src="1.png" width="300" alt="3D doctor" />
+<img src="2.png" width="300" alt="3D doctor" />
+<img src="3.png" width="300" alt="3D doctor" />
 
 ---
 
