@@ -16,12 +16,31 @@
 
 ## 📸 UI Preview
 
-> *(Replace this with a screenshot from your actual UI)*  
-<img src="1.png" width="300" alt="3D doctor" />
-<img src="2.png" width="300" alt="3D doctor" />
-<img src="3.png" width="300" alt="3D doctor" />
+Here are some screenshots that showcase the functionality and interface of **MediReport Pro**:
 
----
+<p align="center">
+  <img src="assets/1_homepage.png" width="90%" alt="Homepage - Role Selection UI"/>
+  <br>
+  <b>🧭 Homepage & Role Selection</b>  
+  <br>
+  Choose between Doctor, Patient, or Medical Shop portals with clean visual cards and intuitive layout.
+</p>
+
+<p align="center">
+  <img src="assets/2_doctor_dashboard.png" width="90%" alt="Doctor Dashboard"/>
+  <br>
+  <b>🩺 Doctor Workspace</b>  
+  <br>
+  Allows doctors to manage existing or new patients and write prescriptions with an interactive UI.
+</p>
+
+<p align="center">
+  <img src="assets/3_patient_dashboard.png" width="90%" alt="Patient Dashboard"/>
+  <br>
+  <b>👨‍⚕️ Patient Dashboard</b>  
+  <br>
+  Displays personalized patient data, past reports, doctor list, and upcoming appointments in a dashboard view.
+</p>
 
 ## 🚀 Features
 
